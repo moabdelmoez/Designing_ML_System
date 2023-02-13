@@ -32,5 +32,6 @@ Machine Learning will shine if your problem has these characteristics;
 If you wait for the technology to prove its worth to the rest of the industry before jumping in, you might end up years or decades behind your competitors.
 
 Difference between ML in research and in production;
+![image](https://user-images.githubusercontent.com/37369603/218462269-f8a89c7c-cbbf-4ddf-bad4-3c615c4bf300.png)
 
 
