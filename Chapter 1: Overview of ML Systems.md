@@ -49,5 +49,13 @@ ML algorithms don’t predict the future, but encode the past.
 In early 2020, the Turing Award winner Professor Geoffrey Hinton proposed a heatedly debated question about the importance of interpretability in ML systems. “Suppose you have cancer and you have to choose between a black box AI surgeon that cannot explain how it works but has a 90% cure rate and a human surgeon with an 80% cure rate. Do you want the AI surgeon to be illegal?
 
 First, interpretability is important for users, both business leaders and end users, to understand why a decision is made so that they can trust a model and detect potential biases mentioned previously. Second, it’s important for developers to be able to debug and improve a model.
-![image](https://user-images.githubusercontent.com/37369603/218463055-210f40a8-3864-4ee0-9f16-4a95d9b3b1d4.png)
 
+## Machine Learning Systems vs Traditional software
+
+ML systems are part code, part data, and part artifacts created from the two.
+
+In traditional SWE, you only need to focus on testing and versioning your code. With ML, we have to test and version our data too, and that’s the hard part. How to version large datasets? How to know if a data sample is good or bad for your system? Not all data samples are equal—some are more valuable to your model than others.
+
+The size of ML models is another challenge. As of 2022, it’s common for ML models to have hundreds of millions, if not billions, of parameters, which requires gigabytes of random-access memory (RAM) to load them into memory.
+
+Monitoring and debugging these models in production is also nontrivial. As ML models get more complex, coupled with the lack of visibility into their work, it’s hard to figure out what went wrong or be alerted quickly enough when things go wrong.
