@@ -48,3 +48,27 @@ Developing an ML system is an iterative and, in most cases, never-ending process
 
 
 ### 1. Project coping
+A project starts with scoping the project, laying out goals, objectives, and constraints. Stakeholders should be identified and involved. Resources should be estimated and allocated.
+
+### 2. Data engineering
+A vast majority of ML models today learn from data, so developing ML models starts with engineering data.
+
+### 3. ML model development 
+With the initial set of training data, we’ll need to extract features and develop initial models leveraging these features. This is the stage that requires the most ML knowledge.
+
+### 4. Deployment
+After a model is developed, it needs to be made accessible to users.
+
+### 5. Monitoring and continual learning
+Once in production, models need to be monitored for performance decay and maintained to be adaptive to changing environments and changing requirements.
+
+### 6. Business analysis
+Model performance needs to be evaluated against business goals and analyzed to generate business insights. These insights can then be used to eliminate unproductive projects or scope out new projects. This step is closely related to the first step.
+
+## Framing ML Problems
+
+If your manager asked you to increase our revenue to 2x for example. This is the problem, but it’s not an ML problem. An ML problem is defined by inputs, outputs, and the objective function that guides the learning process—none of these three components are obvious from your boss’s request. It’s your job, as a seasoned ML engineer, to use your knowledge of what problems ML can solve to frame this request as an ML problem.
+
+> Example:
+> Imagine you’re an ML engineering tech lead at a bank that targets millennial users. One day, your boss hears about a rival bank that uses ML to speed up  their customer service support that supposedly helps the rival bank process their customer requests two times faster. He orders your team to look into using ML to speed up your customer service support too.
+> Upon investigation, you discover that the bottleneck in responding to customer requests lies in routing customer requests to the right department among four departments: accounting, inventory, HR (human resources), and IT. You can alleviate this bottleneck by developing an ML model to predict which of these four departments a request should go to. This makes it a classification problem. The input is the customer request. The output is the department the request should go to. The objective function is to minimize the difference between the predicted department and the actual department.
