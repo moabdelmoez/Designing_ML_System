@@ -34,4 +34,20 @@ If you wait for the technology to prove its worth to the rest of the industry be
 Difference between ML in research and in production;
 ![image](https://user-images.githubusercontent.com/37369603/218462269-f8a89c7c-cbbf-4ddf-bad4-3c615c4bf300.png)
 
+There are many stakeholders involved in bringing an ML system into production. Each stakeholder has their own requirements. Having different, often conflicting, requirements can make it difficult to design, develop, and select an ML model that satisfies all the requirements.
+
+## Computational priorities 
+
+When designing an ML system, people who haven’t deployed an ML system often make the mistake of focusing too much on the model development part and not enough on the model deployment and maintenance part.
+
+Research usually prioritizes fast training, whereas production usually prioritizes fast inference.
+
+To reduce latency in production, you might have to reduce the number of queries you can process on the same hardware at a time. If your hardware is capable of processing many more queries at a time, using it to process fewer queries means underutilizing your hardware, increasing the cost of processing each query.
+
+ML algorithms don’t predict the future, but encode the past.
+
+In early 2020, the Turing Award winner Professor Geoffrey Hinton proposed a heatedly debated question about the importance of interpretability in ML systems. “Suppose you have cancer and you have to choose between a black box AI surgeon that cannot explain how it works but has a 90% cure rate and a human surgeon with an 80% cure rate. Do you want the AI surgeon to be illegal?
+
+First, interpretability is important for users, both business leaders and end users, to understand why a decision is made so that they can trust a model and detect potential biases mentioned previously. Second, it’s important for developers to be able to debug and improve a model.
+![image](https://user-images.githubusercontent.com/37369603/218463055-210f40a8-3864-4ee0-9f16-4a95d9b3b1d4.png)
 
