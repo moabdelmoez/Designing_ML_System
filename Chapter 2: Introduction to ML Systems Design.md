@@ -39,3 +39,12 @@ It’s important to structure your workloads and set up your infrastructure in s
 To adapt to shifting data distributions and business requirements, the system should have some capacity for both discovering aspects for performance improvement and allowing updates without service interruption.
 
 Because ML systems are part code, part data, and data can change quickly, ML systems need to be able to evolve quickly. This is tightly linked to maintainability.
+
+## Iterative Process
+
+Developing an ML system is an iterative and, in most cases, never-ending process. Once a system is put into production, it’ll need to be continually monitored and updated.
+
+![image](https://user-images.githubusercontent.com/37369603/218464156-f5313d5e-90ae-4d26-b2c9-204bfd6a37f8.png)
+
+
+### 1. Project coping
