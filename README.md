@@ -5,9 +5,9 @@ One  million dollar question is; How to deploy ML models at your organization???
 
 These questions can be generic, such as 
   * What model should I use?
-	* How often should I retrain my model?
-	* How can I detect data distribution shifts?
-	* How do I ensure that the features used during training are consistent with the features used during inference?”
+  * How often should I retrain my model?
+  * How can I detect data distribution shifts?
+  * How do I ensure that the features used during training are consistent with the features used during inference?”
 
 The short answer to all of these questions is always : "It depends!!!"
 
