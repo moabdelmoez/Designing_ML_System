@@ -152,7 +152,7 @@ Given an input array (or n-dimensional array), divide it into different, indepen
 #### Loop tiling
 Change the data accessing order in a loop to leverage hardware’s memory layout and cache. This kind of optimization is hardware dependent. A good access pattern on CPUs is not a good access pattern on GPUs.
 #### Operator Fusion
-	Fuse multiple operators into one to avoid redundant memory access. For example, two operations on the same array require two loops over that array. In a fused case, it’s just one loop.
+Fuse multiple operators into one to avoid redundant memory access. For example, two operations on the same array require two loops over that array. In a fused case, it’s just one loop.
 
 ### Using ML to optimize ML models
 
